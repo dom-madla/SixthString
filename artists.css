@@ -1,0 +1,102 @@
+li{
+    color: white;
+}
+a{
+margin-right: 7%;
+color: white;
+text-decoration: none;
+}
+p{
+color: white;
+stroke-width: 10px;
+stroke: white;
+font-size: 23px;
+}
+
+h3{
+    color: white;
+}
+*{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+color: white;
+
+}
+#logo-nav-div{
+width: 100%;
+min-height: 50px;
+margin-bottom: 10px;
+}
+
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+
+#main-div{
+width: 100%;
+min-height: 400px;
+background-color: black;
+}
+#main-div .box{
+width: 20%;
+min-height: 400px;
+background-color: black;
+float: left;
+text-align: center;
+align-content: center;
+margin-bottom: 10px;
+margin-right: 6%;
+margin-left: 7%;
+}
+
+#main-div .box:nth-child(1){
+    margin-left: 10%;
+}
+#main-div .box:nth-child(2){
+    margin-right: 0%;
+}
+#Sidebar-div{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    position: fixed;
+    margin-bottom: 10px;
+}
+#footer-div{
+width: 100%;
+min-height: 50px;
+background-color: black;
+text-align: center;
+float: right;
+}
+#wrapper-div{
+width: 80%;
+background-color: rgb(82, 82, 82);
+margin: auto;
+float: right;
+}
+.darkened-image {
+    filter: brightness(50%);
+    
+}
+
+.list-group-item{
+    
+    background-color: grey;
+    border-color: black;
+    line-height: 76px;
+}
+
+img{
+    filter: brightness(30%);
+}
+
+h5{
+    font-size: 200%;
+}

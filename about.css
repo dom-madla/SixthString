@@ -1,0 +1,161 @@
+
+a{
+    margin-right: 7%;
+    color: white;
+    text-decoration: none;
+    }
+    p{
+    color: white;
+    stroke-width: 10px;
+    stroke: black;
+    font-size: 15px;
+    font-weight: 100;
+    }
+    
+    h3{
+        color: white;
+    }
+    *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+
+    }
+    #logo-nav-div{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+    }
+
+    .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    }
+
+    #main-div{
+    width: 100%;
+    min-height: 400px;
+
+    }
+    #main-div .box{
+    width: 20%;
+    min-height: 400px;
+    float: left;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    margin-left: 7%;
+    }
+
+    #Sidebar-div{
+        float: left;
+        width: 20%;
+        height: 100%;
+        background-color: rgb(82, 82, 82);
+        text-align: center;
+        position: fixed;
+        margin-bottom: 10px;
+    }
+    #footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    text-align: center;
+    float: right;
+    }
+    #wrapper-div{
+    width: 80%;
+    background-color: rgb(82, 82, 82);
+    margin: auto;
+    float: right;
+    }
+    .darkened-image {
+        filter: brightness(50%);
+        
+    }
+
+    .list-group-item{
+        
+        background-color: grey;
+        border-color: black;
+        line-height: 76px;
+    }
+
+    .btn-primary {
+        color: #212529;
+        background-color: green;
+        border-color: black
+    }
+
+    .btn-default{
+        color: #212529;
+        background-color: skyblue;
+        border-color: black
+    }
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+header h1 {
+    text-align: center;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+.content {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    header ul {
+        padding: 0;
+    }
+    header li {
+        display: block;
+        padding: 10px 0;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+    header li {
+        padding: 5px 0;
+    }
+    .content {
+        padding: 10px;
+    }
+}
